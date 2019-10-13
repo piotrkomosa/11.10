@@ -1,19 +1,13 @@
 package calculator;
+public class Calculator {
 
-
-class Calculator {
-//
-    int firstNumber ;
-    int secondNumber;
-
-     public int check() {
-
+    public int check(int firstNumber, int secondNumber) {
         if (firstNumber > secondNumber) {
-           return  firstNumber + secondNumber;
-        } else if (firstNumber < secondNumber){
-           return firstNumber * secondNumber;
-        } else  {
-           return firstNumber * firstNumber;
+            return firstNumber + secondNumber;
+        } else if (firstNumber < secondNumber) {
+            return firstNumber * secondNumber;
+        } else  (firstNumber <  secondNumber) {
+            return firstNumber * firstNumber;
         }
     }
 }
