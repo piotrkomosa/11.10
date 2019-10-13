@@ -13,6 +13,6 @@ public class CalcTest {
         int secondNumber = scanner.nextInt();
         scanner.nextLine();
         scanner.close();
-        System.out.println("wynik to: " + calc.check(firstNumber, secondNumber));
+        calc.check(firstNumber, secondNumber);
     }
 }
